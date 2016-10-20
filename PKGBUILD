@@ -16,8 +16,8 @@ package() {
 	install -dm755 "$pkgdir/usr/share/$pkgname"
 	cp -rf $srcdir/Rambox-$pkgver/* $pkgdir/usr/share/$pkgname/
 	install -dm755 "$pkgdir/usr/bin"
-	echo -en "#!/bin/bash\nexec /usr/share/$pkgname/Rambox $@"  >"$pkgdir/usr/bin/rambox"
-    chmod +x  "$pkgdir/usr/bin/rambox"
+	echo -en "#!/bin/bash\n#version         :0.4.4-0\nexec /usr/share/$pkgname/Rambox $@"  >"$pkgdir/usr/bin/rambox"
+        chmod +x  "$pkgdir/usr/bin/rambox"
 	install -dm755 "$pkgdir/usr/share/pixmaps"
 	install -Dm644 "$srcdir/$pkgname.png" "$pkgdir/usr/share/pixmaps/rambox.png"
 	install -dm755 "$pkgdir/usr/share/applications"
