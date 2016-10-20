@@ -1,6 +1,6 @@
 pkgname=rambox
 pkgver=0.4.4
-pkgrel=1
+#pkgrel=1
 pkgdesc="Free, Open Source and Cross Platform messaging and emailing app ."
 arch=('x86_64')
 url="http://rambox.pro/"
