@@ -1,14 +1,15 @@
 [Desktop Entry]
 Comment=Free, Open Source and Cross Platform
-Exec=rambox
+Exec=rambox -- %u
+StartupWMClass=Rambox
 GenericName=Messaging and emailing app.
 Icon=/usr/share/pixmaps/rambox.png
 Name=Rambox
 NoDisplay=false
-Path[$e]=
 StartupNotify=true
 Terminal=0
 TerminalOptions=
 Type=Application
+Categories=Network;Email;InstantMessaging;
 X-KDE-SubstituteUID=false
 X-KDE-Username=
