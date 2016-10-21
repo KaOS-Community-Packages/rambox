@@ -19,14 +19,14 @@ package() {
     #copy icon image in /opt/rambox
 	install -Dm644 "$srcdir/$pkgname.png" "$pkgdir/opt/rambox/rambox.png"
 	install -dm755 "$pkgdir/usr/share/pixmaps"
-    ln -s "$pkgdir/opt/rambox/rambox.png" "$pkgdir/usr/share/pixmaps/$pkgname.png"
+    ln -s "/opt/rambox/rambox.png" "$pkgdir/usr/share/pixmaps/$pkgname.png"
 	
     # desktop file
 	install -dm755 "$pkgdir/usr/share/applications"
     desktop-file-install $srcdir/$pkgname.desktop --dir $pkgdir/usr/share/applications/
 
   install -dm755 "${pkgdir}/usr/bin"
-  ln -s "$pkgdir/opt/rambox/Rambox" "$pkgdir/usr/bin/rambox"
+  ln -s "/opt/rambox/Rambox" "$pkgdir/usr/bin/rambox"
     
 
 }
