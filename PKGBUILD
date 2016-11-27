@@ -1,7 +1,8 @@
 pkgname=rambox
-pkgver=0.4.4
-pkgrel=2
-pkgdesc="Free, Open Source and Cross Platform messaging and emailing app ."
+pkpkgname=rambox
+pkgver=0.4.5
+pkgrel=1
+pkgdesc="Free, Open Source, Cross Platform messaging & emailing app : Gmail, Whatsapp, Outlook, Yahoo, Telegram, TweetDeck ..."
 arch=('x86_64')
 url="http://rambox.pro/"
 license=("MIT")
@@ -9,7 +10,7 @@ depends=('alsa-lib' 'bash' 'desktop-file-utils' 'gconf' 'gtk2' 'libnotify' 'libx
 source=("$pkgname.desktop" "$pkgname.png" "https://github.com/saenzramiro/rambox/releases/download/$pkgver/Rambox-$pkgver-x64.tar.gz")
 sha256sums=('aad836814026c20794a5979725f8021147863452b46b860d1a6e838e3a6d562d'
             '6b77c271e8f94eb33ce7ad3a4596a861fedfea0ac45e69a2b6fc4ce6d12fe32d'
-            '20a622f81000c274ec2bf7f1fc7300d3905f3dbd0caaebb38bde1d19f952bc17')
+            'a814733f0e0977de6a5b6e5500b5cea1ee062d6973e5f72714db2cc8a3ab597c')
 
 package() {
     # create subdirectory in /opt as binary install
