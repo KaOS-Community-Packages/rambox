@@ -1,5 +1,5 @@
 # Rambox
-Free, Open Source and Cross Platform messaging and emailing app 
+Free, Open Source, Cross Platform messaging & emailing app : Gmail, Whatsapp, Outlook, Yahoo, Telegram, TweetDeck ...
 
 72 services 
 
