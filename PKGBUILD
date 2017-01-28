@@ -1,6 +1,6 @@
 pkgname=rambox
 pkpkgname=rambox
-pkgver=0.4.5
+pkgver=0.5.3
 pkgrel=1
 pkgdesc="Free, Open Source, Cross Platform messaging & emailing app : Gmail, Whatsapp, Outlook, Yahoo, Telegram, TweetDeck ..."
 arch=('x86_64')
@@ -8,7 +8,7 @@ url="http://rambox.pro/"
 license=("MIT")
 depends=('alsa-lib' 'bash' 'desktop-file-utils' 'gconf' 'gtk2' 'libnotify' 'libxtst' 'libxss' 'nss')
 source=("$pkgname.desktop" "$pkgname.png" "https://github.com/saenzramiro/rambox/releases/download/$pkgver/Rambox-$pkgver-x64.tar.gz")
-sha256sums=('aad836814026c20794a5979725f8021147863452b46b860d1a6e838e3a6d562d'
+sha256sums=('1be708d3fa917d491f91a31a91a3e66f00d36008f12c8dcb45493a408d21f792'
             '6b77c271e8f94eb33ce7ad3a4596a861fedfea0ac45e69a2b6fc4ce6d12fe32d'
             'a814733f0e0977de6a5b6e5500b5cea1ee062d6973e5f72714db2cc8a3ab597c')
 
